@@ -1,0 +1,8 @@
+[masters]
+master ansible_host=52.172.198.82 ansible_user=engsptvm
+
+[workers]
+worker1 ansible_host=52.172.158.15 ansible_user=engsptvm
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
